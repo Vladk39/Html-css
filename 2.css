@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    border-color: black;
+    transform: translateX(300px);
+    border-style: solid;
+    border-width: 1px;
+}
+.to4ka {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;               
+    top: 49%;                         
+    left: 48%;
+    }
+.Hours{
+    width: 80px;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    top: 50%;                         
+    left: 50%;
+    animation: oborot 30s infinite steps(1600);
+    transform-origin: 0;
+} 
+.minutes{
+    width: 120px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    animation: oborot 16s infinite steps(1600);
+    transform-origin: 0;
+}
+
+@keyframes oborot{
+                    100%{
+                        transform: rotate(360deg);
+                    }
+}
