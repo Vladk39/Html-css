@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+.menu{
+    background: #F9F6F1;
+    padding-top: 65px;
+}
+.container{
+    max-width: 1116px;
+    margin: auto;
+}
+.menu-content{
+    display: flex;
+    justify-content:space-between;
+    /* двигает влево и право */
+}
+.menu-content a{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.menu-content a:not(:last-child){
+    /* не к псоледней ссылке */
+    margin-right: 50px;
+}
+.sale{
+    background-color: #F9F6F1;
+    padding-top: 30px;
+    padding-bottom: 70px;
+
+}
+.sale-content{
+    display: flex;
+    justify-content: space-between;
+}
+.sale-content-left h2{
+    color: black;
+    font-size: 30px;
+    font-weight: 400px;
+}
+.sale-content-left h1{
+    margin-top: 45px;
+    margin-bottom: 25px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.sale-content-left p{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 514px;
+    margin-bottom: 25px;
+}
+.sale-content-left a{
+    background-color: #D7B399;
+    padding: 18px 30px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+
+}
+.sale-content-right h2{
+    color: black;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: line-through;
+    margin-bottom: 45px;
+}
+.sale-content-right h1{
+    color: #D84033;
+    text-align: right;
+    font-size: 42px;
+    }
+    .delivery{
+        background: #212121;
+        color: #FFF;
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+.delivery h2{
+    font-size: 30px;
+    color: #FFF;
+    font-weight: 700;
+
+}
+.delivery span{
+    font-size: 30px;
+    color: #FFF;
+    font-weight: 400;
+}
+.delivery p{
+    margin-top: 23px;
+    font-size: 21px;
+    font-weight: 300;
+}
+.gift{
+    background-color:#F9F6F1;
+    padding: 70px 0;
+}
+.gift-container{
+    display: flex;
+    justify-content: space-between;
+}
+.gift-container h2{
+    font-size: 30px;
+color: #212121;
+font-weight: 700;
+}
+.gift-container input{
+    width: 255px;
+    padding: 13px 20px 12px 20px;
+    background-color: #F9F6F1;
+    outline: none;
+    border: 1px solid #000;
+}
+
+.gift-container button{
+    font-size: 14px;
+color: #FFF;
+font-weight: 500;
+border: none;
+outline: none;
+background-color: #D7B399;
+width: 185px;
+padding: 13px 0;
+}
+.footer{
+    background-color: #212121;
+}
+.footar-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding:80px 0;
+}
+
+.footer-item{
+    text-align: left;
+   
+   
+    
+}
+.footer-item a{
+    display: block;
+    color: #CBCFD4;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top:20px;
+    margin-bottom: 10px;
+    margin-right: 80px;
+    
+}
+.footer-item h3{
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 700;
+}
+.footer-item img{
+    margin-left: 10px;
+    
+    
+    
+}
+.flexcopy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.copy p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #212121;
+}
+.test{
+    display: inline;
+}
+@media screen and (max-width: 500px){
+    .sale-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu {
+        padding-top: 20px;
+    }
+    .menu-content{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .mctright{
+        text-align: center;
+    }
+    .sale{
+        text-align: center;
+    }
+
+.sale-content-left a{
+    margin-left: 25%;
+    
+}
+.sale-content-right{
+    max-width: fit-content;
+}
+.testh{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+.sale-content-right h2{
+    color: black;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: line-through;
+    margin: 0;
+}
+    
+.sale-content-right h1{
+        color: #D84033;
+        text-align: right;
+        font-size: 42px; 
+        margin-top: 0px;}
+
+.sale-content-right img{
+    width: 90%;
+    
+    }
+
+    .footer-item{
+        width: calc(100%/4);
+    }
+    .gift-container input{
+        max-width: 155px;
+        padding: 13px 20px 12px 20px;
+        background-color: #F9F6F1;
+        outline: none;
+        border: 1px solid #000;
+    }
+}
+   
